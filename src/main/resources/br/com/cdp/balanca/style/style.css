@@ -1,10 +1,15 @@
 .background {
     -fx-background-color: #d1edff;
+    -fx-background-image: url("https://img.freepik.com/vetores-gratis/fundo-de-textura-fluindo-de-tinta-aquarela_1055-13702.jpg?w=1060&t=st=1657635352~exp=1657635952~hmac=6dbf343898a97ffbb7e14c9009b928b75a000643f1300d60aab0bd2e82d28399");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 2500 1500;
+    -fx-background-position: center center;
 }
 
 .background-submenu{
     -fx-background-color: #003764;
 }
+
 
 .background-login{
     -fx-background-color: #d1edff;
@@ -15,27 +20,21 @@
 }
 
 .background-toolbar {
-    -fx-background-radius: 0;
-    -fx-background-color: #003764 ;
-    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
-    -fx-font-size: 12pt;
-    -fx-text-fill: #ffffff;
-    -fx-background-insets: 0 0 0 0, 0, 1, 2;
+    -fx-background-color: #003764;
     -fx-background-image: url("https://www.etu.edu.tr/files/haber/2019/08/05/5828982d715d6c957bc263e64290c2c0.jpg");
     -fx-background-repeat: no-repeat;
-    -fx-background-size: 2500 100;
+    -fx-background-size: 2500 130;
     -fx-background-position: center;
-    -fx-background-attachment: scroll;
 }
 
-.text-teste {
-    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
-    -fx-font-size: 12pt;
-    -fx-text-fill: #ffffff;
+.label_user {
+    -fx-font-size: 11pt;
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-text-fill: #42ddf5;
 }
 
 .label {
-    -fx-font-size: 11pt;
+    -fx-font-size: 14pt;
     -fx-font-family: "Segoe UI Semibold";
     -fx-text-fill: black;
 }
@@ -155,8 +154,9 @@
 .button {
     -fx-padding: 5 22 5 22;
     -fx-border-color: #FFFFFF;
+    -fx-border-radius: 5;
     -fx-border-width: 2;
-    -fx-background-radius: 0;
+    -fx-background-radius: 7;
     -fx-background-color: #254fab;
     -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
     -fx-font-size: 11pt;

@@ -49,6 +49,9 @@ public class FuncionarioFormController implements Initializable {
     @FXML
     private Button btnCancelar;
 
+    @FXML
+    private Button btnLimpar;
+
     public void setFuncionario(Funcionario funcionario) {
         this.funcionario = funcionario;
     }
@@ -57,10 +60,22 @@ public class FuncionarioFormController implements Initializable {
         this.funcionarioServices = funcionarioServices;
     }
 
+    public void autenticar_usuario(){
+        if (funcionario == null){
+            throw new IllegalStateException("Funcionário é null");
+        }
+        try {
+
+        } catch (RuntimeException exceptionMsg) {
+
+        }
+    }
+
+
     @FXML
     private void btnOnActionSalvar(ActionEvent event) {
         if (funcionario == null) {
-            throw new IllegalStateException("Funcionario as null");
+            throw new IllegalStateException("Funcionário as null");
         }
         if (funcionarioServices == null) {
             throw new IllegalStateException("Service as null");
@@ -71,7 +86,18 @@ public class FuncionarioFormController implements Initializable {
             notifyDataChangeListener();
             ResourceStage.currentStage(event).close();
         } catch (RuntimeException exceptionMsg) {
-            Alerts.showAlert("Erro em Salvar Funcionario", null, exceptionMsg.getMessage(), Alert.AlertType.ERROR);
+            Alerts.showAlert("Erro em Salvar Funcionário", null, exceptionMsg.getMessage(), Alert.AlertType.ERROR);
+        }
+
+    }
+
+    @FXML
+    private void btnOnActionLimpar(ActionEvent event) {
+        try {
+            getFormClear();
+            notifyDataChangeListener();
+        } catch (RuntimeException exceptionMsg) {
+            Alerts.showAlert("Erro ao limpar campo", null, exceptionMsg.getMessage(), Alert.AlertType.ERROR);
         }
     }
 
@@ -106,15 +132,33 @@ public class FuncionarioFormController implements Initializable {
         return obj;
     }
 
+    private void getFormClear() {
+        if (funcionario == null) {
+            throw new IllegalStateException("Funcionário é null");
+        }
+        if (funcionarioServices == null) {
+            throw new IllegalStateException("Service é null");
+        }
+        txtNome.setText("");
+        txtLoginRede.setText("");
+        txtLoginScap.setText("");
+        checkAdministrador.setSelected(false);
+        checkAtivo.setSelected(false);
+    }
+
     public void updateFormData() {
         if (funcionario == null) {
-            throw new IllegalStateException("Funcionario as Null");
+            throw new IllegalStateException("Funcionário é Null");
         }
         txtId.setText(String.valueOf(funcionario.getId() == null ? "" : funcionario.getId()));
         txtNome.setText(funcionario.getNome());
         txtLoginRede.setText(funcionario.getLoginRede());
         txtLoginScap.setText(funcionario.getLoginScap());
-        checkAdministrador.setSelected(funcionario.getAdministrador() == null ? false : funcionario.getAdministrador());
-        checkAtivo.setSelected(funcionario.getAtivo() == null ? false : funcionario.getAtivo());
+    //    checkAdministrador.setSelected(funcionario.getAdministrador() == null ? false : funcionario.getAdministrador());
+        checkAdministrador.setSelected(funcionario.getAdministrador() != null && funcionario.getAdministrador());
+    //    checkAtivo.setSelected(funcionario.getAtivo() == null ? false : funcionario.getAtivo());
+        checkAtivo.setSelected(funcionario.getAtivo() != null && funcionario.getAtivo());
     }
+
+
 }

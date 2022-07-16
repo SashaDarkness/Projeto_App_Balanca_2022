@@ -26,10 +26,11 @@ public class FuncionarioServices {
         }
     }
 
-    //USAR PARA AUTENTICACAO DA TELA FUNCIONARIO FORM
+    //USAR PARA AUTENTICACAO ADD NO FUNCIONARIO_FORM_CONTROLLER
     public boolean loginAdConfirmation(Funcionario obj) {
         return DB.atenticacaoUsuarioAd(obj);
     }
+
 
     public Funcionario getFuncionario(String login) {
         return funcionarioDao.findByLogin(login);

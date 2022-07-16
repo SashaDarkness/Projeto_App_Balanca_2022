@@ -63,7 +63,7 @@
                 </GridPane>
             </children>
         </GridPane>
-        <TableView fx:id="tabelaFuncionario" prefHeight="200.0" prefWidth="200.0">
+        <TableView fx:id="tabelaFuncionario" prefHeight="480.0" prefWidth="200.0">
             <columns>
                 <TableColumn fx:id="columnId" prefWidth="75.0" text="Id" />
                 <TableColumn fx:id="columnNome" prefWidth="156.0" text="Nome" />

@@ -5,7 +5,7 @@ import java.sql.Timestamp;
 public class Veiculo {
 
     private Integer idVeiculo;
-    private Integer idPessoa;
+    private Integer idPessoa; //motorista
     private String placaVeiculo;
     private Float pesoTara;
 

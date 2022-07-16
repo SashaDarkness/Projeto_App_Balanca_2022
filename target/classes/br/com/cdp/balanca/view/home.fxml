@@ -13,11 +13,11 @@
 <?import org.kordamp.ikonli.javafx.FontIcon?>
 <!--?import org.kordamp.ikonli.javafx.FontIcon?-->
 
-<SplitPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onKeyPressed="#handleOnKeyReleased" prefHeight="600.0" prefWidth="1000.0" styleClass="background" stylesheets="@../style/style.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.cdp.balanca.controller.HomeController">
+<SplitPane style="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onKeyPressed="#handleOnKeyReleased" prefHeight="880.0" prefWidth="1100.0" styleClass="background" stylesheets="@../style/style.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.cdp.balanca.controller.HomeController">
     <items>
         <GridPane>
             <columnConstraints>
-                <ColumnConstraints halignment="RIGHT" hgrow="SOMETIMES" maxWidth="1000.0" minWidth="0.0" prefWidth="498.0" />
+                <ColumnConstraints halignment="RIGHT" hgrow="SOMETIMES" maxWidth="1000.0" minWidth="0.0" prefWidth="502.0" />
                 <ColumnConstraints halignment="LEFT" hgrow="SOMETIMES" maxWidth="1000.0" minWidth="0.0" prefWidth="502.0" />
             </columnConstraints>
             <rowConstraints>
@@ -30,15 +30,15 @@
                 <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
             </rowConstraints>
             <children>
-                <ToolBar fx:id="toolbar" nodeOrientation="RIGHT_TO_LEFT" prefHeight="100.0" prefWidth="2500.0" styleClass="background-toolbar" GridPane.columnSpan="2">
+                <ToolBar fx:id="toolbar" nodeOrientation="RIGHT_TO_LEFT" prefHeight="130.0" prefWidth="2500.0" styleClass="background-toolbar" GridPane.columnSpan="2">
                     <items>
                         <Button fx:id="btnSair" contentDisplay="CENTER" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" onAction="#onBtActionTrocaUsuarioAction" text="Sair" />
                         <FontIcon iconColor="WHITE" iconLiteral="mdi-account" iconSize="30" />
                         <Label fx:id="lblUser" />
                     </items>
-               <GridPane.margin>
-                  <Insets top="-10.0" />
-               </GridPane.margin>
+                    <GridPane.margin>
+                        <Insets top="-35.0" />
+                    </GridPane.margin>
                 </ToolBar>
                 <Button fx:id="btnFuncionario" mnemonicParsing="false" onAction="#onBtnFuncionarioAction" GridPane.rowIndex="5">
                     <graphic>
@@ -86,10 +86,10 @@
                 <Label text="Tara de Veículo (F2)" GridPane.columnIndex="1" GridPane.rowIndex="1" />
                 <Label text="Relatórios (F5)" GridPane.columnIndex="1" GridPane.rowIndex="4" />
 
-               <ImageView id="cdp_image" fitHeight="90.0" fitWidth="280.0" style="-fx-background-attachment: scroll;" GridPane.rowIndex="0">
-               <GridPane.margin>
-                  <Insets right="200.0" />
-               </GridPane.margin>
+               <ImageView id="cdp_image" nodeOrientation="LEFT_TO_RIGHT" fitHeight="100.0" fitWidth="280.0" styleClass="tam_logo"  GridPane.rowIndex="0">
+                   <GridPane.margin>
+                       <Insets top="-20.0" right="200.0" />
+                   </GridPane.margin>
                <image>
                   <Image url="@../images/cdp.png" />
                </image></ImageView>

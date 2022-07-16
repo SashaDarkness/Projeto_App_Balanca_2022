@@ -46,7 +46,7 @@ public class LoginController implements Initializable {
     private boolean validateInput(){
         if(txtLogin.getText().equals("") || pswSenha.getText().equals("")){
             return false;
-        }else {
+        } else {
             return true;
         }
     }

@@ -1,15 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Balanca:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2d15b68-5100-4490-9db2-e23aea1ff9c3" name="Changes" comment="mudanças no estilo do app">
+    <list default="true" id="d2d15b68-5100-4490-9db2-e23aea1ff9c3" name="Changes" comment="button limpar">
+      <change afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Balanca_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Balanca_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/javafx_sdk_17_0.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/br/com/cdp/balanca/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/br/com/cdp/balanca/style/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/br/com/cdp/balanca/view/home.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/br/com/cdp/balanca/view/home.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/cdp/balanca/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/cdp/balanca/style/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/cdp/balanca/view/home.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/cdp/balanca/view/home.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Balanca.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,24 +43,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="Downloaded.Files.Path.Enabled" value="false" />
-    <property name="Repository.Attach.Annotations" value="false" />
-    <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../Arquivos de Instalação Balança 4.0.0/ICONS/mdi-import_files" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.537931" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ToolWindowBuild.ShowToolbar": "false",
+    "WebServerToolWindowFactoryState": "false",
+    "dart.analysis.tool.window.visible": "false",
+    "last_opened_file_path": "C:/Users/Darkness/Downloads/importacoes_balanca/javafx-sdk-17.0.2/lib",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.32068965",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "show.migrate.to.gradle.popup": "false",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "sqlserver"
+    ]
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\s2ferreira\Downloads\Balanca\balanca\src\main\resources\br\com\cdp\balanca\view" />
       <recent name="C:\Users\s2ferreira\Downloads\Balanca\Balanca\src\main\resources\br\com\cdp\balanca\view" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -121,7 +134,23 @@
       <workItem from="1656938953867" duration="7698000" />
       <workItem from="1657022308425" duration="8635000" />
       <workItem from="1657031040711" duration="236000" />
-      <workItem from="1657031301853" duration="7082000" />
+      <workItem from="1657031301853" duration="7578000" />
+      <workItem from="1657109190759" duration="12471000" />
+      <workItem from="1657196191154" duration="8489000" />
+      <workItem from="1657553910853" duration="3437000" />
+      <workItem from="1657627579163" duration="11068000" />
+      <workItem from="1657716878932" duration="515000" />
+      <workItem from="1657717421079" duration="3728000" />
+      <workItem from="1657726410055" duration="831000" />
+      <workItem from="1657727264017" duration="632000" />
+      <workItem from="1657727915235" duration="168000" />
+      <workItem from="1657728106413" duration="89000" />
+      <workItem from="1657728213398" duration="2519000" />
+      <workItem from="1657800910046" duration="7861000" />
+      <workItem from="1657810202659" duration="4117000" />
+      <workItem from="1657888620289" duration="1291000" />
+      <workItem from="1657889940132" duration="337000" />
+      <workItem from="1657939210802" duration="747000" />
     </task>
     <task id="LOCAL-00001" summary="teste">
       <created>1655903525679</created>
@@ -249,7 +278,77 @@
       <option name="project" value="LOCAL" />
       <updated>1657037094042</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="mudanças no estilo do app">
+      <created>1657040258225</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1657040258225</updated>
+    </task>
+    <task id="LOCAL-00020" summary="mudanças no estilo do app">
+      <created>1657040282194</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1657040282194</updated>
+    </task>
+    <task id="LOCAL-00021" summary="mudanças no estilo do app">
+      <created>1657123421120</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1657123421120</updated>
+    </task>
+    <task id="LOCAL-00022" summary="algumas mudanças">
+      <created>1657557354046</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1657557354046</updated>
+    </task>
+    <task id="LOCAL-00023" summary="algumas mudanças no front do app">
+      <created>1657636659887</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1657636659887</updated>
+    </task>
+    <task id="LOCAL-00024" summary=".">
+      <created>1657643169343</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1657643169343</updated>
+    </task>
+    <task id="LOCAL-00025" summary=".">
+      <created>1657643184533</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1657643184533</updated>
+    </task>
+    <task id="LOCAL-00026" summary=".">
+      <created>1657727629043</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1657727629043</updated>
+    </task>
+    <task id="LOCAL-00027" summary="button limpar">
+      <created>1657807675889</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1657807675889</updated>
+    </task>
+    <task id="LOCAL-00028" summary="button limpar">
+      <created>1657817030028</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1657817030028</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -272,10 +371,12 @@
     <MESSAGE value="teste" />
     <MESSAGE value="algumas mudanças relatório" />
     <MESSAGE value="melhoras no designer do relatório" />
-    <MESSAGE value="algumas mudanças" />
     <MESSAGE value="Mudanças na cor do sistema" />
-    <MESSAGE value="." />
     <MESSAGE value="mudanças no estilo do app" />
-    <option name="LAST_COMMIT_MESSAGE" value="mudanças no estilo do app" />
+    <MESSAGE value="algumas mudanças" />
+    <MESSAGE value="algumas mudanças no front do app" />
+    <MESSAGE value="." />
+    <MESSAGE value="button limpar" />
+    <option name="LAST_COMMIT_MESSAGE" value="button limpar" />
   </component>
 </project>

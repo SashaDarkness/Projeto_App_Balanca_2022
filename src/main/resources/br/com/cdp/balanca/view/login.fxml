@@ -26,7 +26,9 @@
             <Pane prefHeight="200.0" prefWidth="200.0" styleClass="background-submenu" GridPane.columnIndex="1">
                <children>
                   <TextField fx:id="txtLogin" layoutX="93.0" layoutY="118.0" />
+
                   <PasswordField fx:id="pswSenha" layoutX="90.0" layoutY="249.0" />
+
                   <Button fx:id="btnEntrar" layoutX="34.0" layoutY="335.0" mnemonicParsing="false" onAction="#onLoginAction" text="Entrar" />
                   <Button fx:id="btnSair" layoutX="244.0" layoutY="335.0" mnemonicParsing="false" onAction="#onExitAction" text="Sair" />
                   <Label layoutX="145.0" layoutY="78.0" styleClass="label-bright" text="Login">

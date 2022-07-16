@@ -48,12 +48,13 @@
             <version>12.2.0</version>
         </dependency>
 
-        <!-- jdbc  -->
+        <!-- jdbc atualizar version para 10.2.1.jre17 -->
         <dependency>
             <groupId>com.microsoft.sqlserver</groupId>
             <artifactId>mssql-jdbc</artifactId>
             <version>9.4.1.jre16</version>
         </dependency>
+
         <dependency>
             <groupId>io.github.java-native</groupId>
             <artifactId>jssc</artifactId>

@@ -79,6 +79,7 @@ public class FuncionarioController implements Initializable, DataChangeListeners
         initEditButtons();
     }
 
+    //AÇAO DE EDITAR OS USERS JÁ CADASTRADOS COMO ADM'S
     private void initEditButtons() {
         columnEdit.setCellValueFactory(param -> new ReadOnlyObjectWrapper<>(param.getValue()));
         columnEdit.setCellFactory(param -> new TableCell<Funcionario, Funcionario>() {
@@ -98,17 +99,13 @@ public class FuncionarioController implements Initializable, DataChangeListeners
         });
     }
 
-    private void searchTableView(){   //new
+    private void searchTableView(){
         List<Funcionario> list;
-        //String pesquisar = txtPesquisar.getText();
-        //list = service.findByNameOrLogin(pesquisar);
         list = service.findByNameOrLogin(txtPesquisar.getText());
         obsList = FXCollections.observableArrayList(list);
         tabelaFuncionario.setItems(obsList);
-        initEditButtons();    //
+        initEditButtons();
     }
-
-
 
     private void createDialog(Funcionario obj, Stage parentStage, String url, String title) {
         try {
